@@ -47,7 +47,7 @@
 </div>
 <script>
 // 구글 앱스 스크립트 화면 주소 — 배포 뒤 한 번 적음 · 그 뒤로는 «배포 관리 → 새 버전» 으로만 올려 주소가 안 바뀜
-const 진짜주소 = '여기에_배포_주소';
+const 진짜주소 = 'https://script.google.com/macros/s/AKfycbxsArVDAgNFxliE-UsZxNynIVX16X-GEWF0viVfFfs9tC5BNAOKRd1RSXPBQYC-fHvcBA/exec';
 // 시험용 — 이 PC 에서 열 때(file · localhost)만 ?화면=주소 로 시험 화면을 끼울 수 있다. 깃허브에서는 늘 진짜 주소
 const 이PC = location.protocol === 'file:' || /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
 const 화면주소 = (이PC && new URLSearchParams(location.search).get('화면')) || 진짜주소;
